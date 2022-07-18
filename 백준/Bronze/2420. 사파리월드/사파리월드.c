@@ -5,7 +5,7 @@ int main() {
     scanf("%ld %ld", &a, &b);
     ans = a - b;
     if (ans < 0) {
-        ans = ans * (-1);
+        ans = -ans;
     }
     printf("%ld", ans);
 }
