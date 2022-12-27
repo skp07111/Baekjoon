@@ -1,14 +1,7 @@
 #include <stdio.h>
 
-int main()
-{
-	int A, B;
-
-	A > 0;
-	B < 10;
-
-	scanf("%d", &A);
-	scanf("%d", &B);
-	
-	printf("%d", A + B);
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d", a+b);
 }
